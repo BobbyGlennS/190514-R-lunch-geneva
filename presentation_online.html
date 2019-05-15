@@ -862,7 +862,7 @@ df_broiler <span class="op">%&gt;%</span><span class="st"> </span>
 ## 5 assert       NA pred_function Producer Postcode   738  ke2 tvx
 ##   [omitted 27 rows]</code></pre>
 <pre><code>## Warning: assertr encountered errors</code></pre>
-<p><small>Even though wrong in the first place, postcodes here are anonimised again</small></p>
+<p><small>Postcodes here are anonimised again</small></p>
 </section><section id="assertr-4" class="slide level2">
 <h2>assertr (4)</h2>
 <p>Other functionalities:</p>
@@ -901,7 +901,7 @@ df_broiler <span class="op">%&gt;%</span><span class="st"> </span>
 </section><section id="pointblank-2" class="slide level2">
 <h2>pointblank (2)</h2>
 <p>What if I want to verify the range of a variable conditional on another?</p>
-<p>E.g. the maximum age of a bird varies by whether they are organically farmed or not.</p>
+<p>E.g. the maximum age of a bird varies by whether they are free range farmed or not.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">agent &lt;-<span class="st"> </span>
 <span class="st">  </span><span class="kw">create_agent</span>() <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">focus_on</span>(<span class="dt">tbl_name =</span> <span class="st">&quot;df_broiler&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>
